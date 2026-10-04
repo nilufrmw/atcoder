@@ -10,4 +10,4 @@ This is a collection of my implementation of those problems in the C language. T
 
 4. I'm preparing for low level roles (firmware, embedded linux), in such constrained systems you don't have such libraries, you often have to implement data structures or algorithms yourself
 
-NOTE: Some coding practices followed here is often discouraged in C community, such as scanf for reading a string; it can cause a buffer overflow, potentially crashing the program or creating security vulnerabilities. My core focus is: the algorithms & data structures. Also I prefer C99 standard.
+NOTE: Some coding practices followed here is often discouraged in C community, such as scanf for reading a string; it can cause a buffer overflow, potentially crashing the program or creating security vulnerabilities. My core focus is implementing algorithms & data structures. Also I prefer C99 standard.
