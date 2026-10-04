@@ -1,6 +1,7 @@
 /*
 +1 module 3 will wrap to 0, if it increments for the last light.
 */
+
 #include <stdio.h>
 
 int main(void) {
