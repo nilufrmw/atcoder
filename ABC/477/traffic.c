@@ -11,4 +11,5 @@ int main(void) {
     }
   }
   printf("%c", lights[next]);
+  return 0;
 }
