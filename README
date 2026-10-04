@@ -3,6 +3,9 @@ AtCoder is a programming contest site for anyone from beginners to experts. They
 This is a collection of my implementation of those problems in the C language. The reason I went with C is that:
 
 1. It's a small language
+
 2. I want to implement most of the things myself that others take for granted with STL in C++ for example.
+
 3. I feel superior over others who rely on already built in libraries and don't know how to implement things from scratch.
+
 4. I'm preparing for low level roles (firmware, embedded linux), in such constrained systems you don't have such libraries, you often have to implement data structures or algorithms yourself.
