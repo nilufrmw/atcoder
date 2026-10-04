@@ -1,7 +1,6 @@
 /*
 problem: https://atcoder.jp/contests/abc477/tasks/abc477_a
 
-note:
 +1 modulo 3 will wrap to 0, if it increments for the last light.
 */
 
