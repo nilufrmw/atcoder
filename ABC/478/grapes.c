@@ -1,7 +1,8 @@
 /*
-given solution is O(M) time and O(N) space. We can improve it by calculating minimum amount every person will get (m / n) and the remaining will be distributed to some prefix of people.
+Given solution is O(M) time and O(N) space.
+We can improve it by calculating minimum amount every person will get (m / n) and the remaining will be distributed to some prefix of people.
 
-we can just output: (m / n) + extra, where that extra is 1 if 'i' < (m % n) in 0-based indexing.
+We can just output: (m / n) + extra, where that extra is 1 if 'i' < (m % n) in 0-based indexing.
 */
 
 #include <stdio.h>
