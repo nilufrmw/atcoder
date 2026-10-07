@@ -5,9 +5,15 @@ just iterate through all pairs (except with self)
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int out[100];
+
+int abs(int x) {
+  if(x < 0) {
+    x = -x;
+  }
+  return x;
+}
 
 int main(void) {
   int n, d;
