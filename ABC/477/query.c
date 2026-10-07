@@ -9,7 +9,7 @@ int main(void) {
   while(q--) {
     int l, r;
     scanf("%d%d", &l, &r);
-    // soln
+    // todo
   }
   printf("%s %s", s, t);
   
