@@ -1,12 +1,3 @@
-/*
-problem:
-https://atcoder.jp/contests/abc476/tasks/abc476_b
-
-solution:
-If two characters in the same position differ and in it string T,
-it's not an asterisk (*), it's not possible to make them same.
-*/
-
 #include <stdio.h>
 
 int main(void) {
