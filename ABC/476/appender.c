@@ -1,7 +1,3 @@
-/*
-https://atcoder.jp/contests/abc476/tasks/abc476_a
-*/
-
 #include <stdio.h>
 
 int main(void) {
