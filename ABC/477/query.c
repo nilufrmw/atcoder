@@ -1,8 +1,3 @@
-/*
-problem: https://atcoder.jp/contests/abc477/tasks/abc477_c
-
-*/
-
 #include <stdio.h>
 
 int main(void) {
