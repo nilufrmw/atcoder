@@ -1,6 +1,8 @@
 /*
-problem: https://atcoder.jp/contests/abc477/tasks/abc477_b
+problem:
+https://atcoder.jp/contests/abc477/tasks/abc477_b
 
+solution:
 just iterate through all pairs (except with self)
 */
 
