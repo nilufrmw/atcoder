@@ -1,8 +1,3 @@
-/*
-The given solution is O(N^3) where we iterate through which one to take
-first, then second and third. The +3 is because of the 0-based indexing
-*/
-
 #include <stdio.h>
 
 int max(int a, int b) {
