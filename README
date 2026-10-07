@@ -1,4 +1,4 @@
-AtCoder is a programming contest site for anyone from beginners to experts. They hold weekly programming contests online.
+AtCoder (https://atcoder.jp) is a programming contest site for anyone from beginners to experts. They hold weekly programming contests online.
 
 This is a collection of my implementation of those problems in the C language. The reason I went with C is that:
 
