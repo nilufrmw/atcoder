@@ -26,6 +26,6 @@ int main(void) {
     }
   }
 
-  printf("%lld\n", best);
+  printf("%ld\n", best);
   return 0;
 }
