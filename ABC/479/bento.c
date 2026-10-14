@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long max(long a, long b) {
+long max(long a, long b) {
   return (a > b ? a : b);
 }
 
