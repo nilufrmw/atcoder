@@ -33,4 +33,5 @@ int main(void) {
   }
   // double counted vertices
   printf("%d\n", answer - vertex);
+  return 0;
 }
