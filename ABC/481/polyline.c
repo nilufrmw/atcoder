@@ -31,6 +31,6 @@ int main(void) {
       answer++;
     }
   }
-  // double counted vertices
+  // subtract double counted vertices
   printf("%d\n", answer - vertex);
 }
