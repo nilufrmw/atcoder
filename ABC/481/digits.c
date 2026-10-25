@@ -9,4 +9,5 @@ int main(void) {
   else {
     puts("1");
   }
+  return 0;
 }
