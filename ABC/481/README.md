@@ -1,1 +1,0 @@
-[problems](https://atcoder.jp/contests/abc481)
