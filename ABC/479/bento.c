@@ -12,9 +12,9 @@ int main(void) {
     scanf("%d%d", &d[i], &v[i]);
   }
 
-  long long best = 0;
+  long best = 0;
   for(int mask = 0; mask < (1 << n); ++mask) {
-    long long vol = 0, del = 0;
+    long vol = 0, del = 0;
     for(int i = 0; i < n; ++i) {
       if(mask & (1 << i)) {
         vol += v[i];
