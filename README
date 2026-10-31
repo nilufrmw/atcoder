@@ -10,4 +10,4 @@ This is a collection of my implementation of those problems in the C language. T
 
 NOTE: Some coding practices followed here is often discouraged in the C community, such as scanf for reading a string; it can cause a buffer overflow, potentially crashing the program or creating security vulnerabilities. My core focus is implementing algorithms & data structures.
 
-I prefer C99 standard. Also I will only use stdio.h header file for I/O, all other things are implemented from scratch.
+I prefer C99 standard and will only use stdio.h header file for I/O, all other things are implemented from scratch.
