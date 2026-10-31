@@ -13,4 +13,5 @@ int main(void) {
   }
   int is_odd = (cnt % 2) == 1;
   puts(is_odd ? "odd" : "even");
+  return 0;
 }
