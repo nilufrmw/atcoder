@@ -42,7 +42,7 @@ int main(void) {
     if(grid[i][i] == 'o') {
       diag1++;
     }
-    if(grid[i][5-i] == 'o') {
+    if(grid[i][4-i] == 'o') {
       diag2++;
     }
   }
