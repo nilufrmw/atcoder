@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 long max(long a, long b) {
   return (a > b ? a : b);
@@ -12,7 +13,7 @@ int main(void) {
     scanf("%d%d", &d[i], &v[i]);
   }
 
-  long long best = 0;
+  uint64_t best = 0;
   for(int mask = 0; mask < (1 << n); ++mask) {
     long vol = 0, del = 0;
     for(int i = 0; i < n; ++i) {
