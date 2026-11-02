@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-uint64_t max(uint64_t a, uint64_t b) {
+long long max(long long a, long long b) {
   return (a > b ? a : b);
 }
 
@@ -13,7 +13,7 @@ int main(void) {
     scanf("%d%d", &d[i], &v[i]);
   }
 
-  uint64_t best = 0;
+  long long best = 0;
   for(int mask = 0; mask < (1 << n); ++mask) {
     long vol = 0, del = 0;
     for(int i = 0; i < n; ++i) {
@@ -27,6 +27,6 @@ int main(void) {
     }
   }
 
-  printf("%ld\n", best);
+  printf("%lld\n", best);
   return 0;
 }
