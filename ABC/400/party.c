@@ -9,5 +9,5 @@ int main(void) {
   else {
     printf("%d\n", 400 / a);
   }
+  return 0:
 }
-
