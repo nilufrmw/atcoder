@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-long max(long a, long b) {
+uint64_t max(uint64_t a, uint64_t b) {
   return (a > b ? a : b);
 }
 
