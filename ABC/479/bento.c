@@ -12,7 +12,7 @@ int main(void) {
     scanf("%d%d", &d[i], &v[i]);
   }
 
-  long best = 0;
+  long long best = 0;
   for(int mask = 0; mask < (1 << n); ++mask) {
     long vol = 0, del = 0;
     for(int i = 0; i < n; ++i) {
