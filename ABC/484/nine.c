@@ -1,28 +1,25 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int min(int a, int b) {
-  return (a < b ? a : b);
-}
+int seen[10];
 
 int main(void) {
   int k;
   scanf("%d", &k);
-  bool can = false;
-  int smallest = 9;
   for(int i = 0; i < k; ++i) {
     int x;
     scanf("%d", &x);
-    if(x == 9) {
-      can = true;
-    }
-    smallest = min(smallest, x);
+    seen[x] = 1;
   }
-  if(can) {
-    printf("%d\n", smallest);
+  if(!seen[9]) {
+    puts("-1");
   }
   else {
-    puts("-1");
+    for(int i = 1; i <= 9; ++i) {
+      if(seen[i]) {
+        printf("%d\n", i);
+        break;
+      }
+    }
   }
   return 0;
 }
