@@ -5,4 +5,5 @@ int main(void) {
   scanf("%d%d", &B, &R);
   int rem = (30 - B) * (30 - R);
   printf("%d\n", rem);
+  return 0;
 }
