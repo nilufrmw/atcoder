@@ -19,7 +19,7 @@ int main(void) {
     smallest = min(smallest, x);
   }
   if(can) {
-    printf(%d\n", smallest);
+    printf("%d\n", smallest);
   }
   else {
     puts("-1");
