@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <bool.h>
+#include <stdbool.h>
 
 int min(int a, int b) {
   return (a < b ? a : b);
